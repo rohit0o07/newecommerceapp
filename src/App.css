@@ -6,10 +6,22 @@
     box-sizing: border-box;
     font-family:sans-serif,'roboto';
 }
+
 .navSection{
-    display: flex;
     border:1px solid black;
+    display: flex;
     justify-content: space-between;
     background-color: blue;
     color: white;
+}
+
+.proSection{
+    display: flex;
+}
+.imgBox{
+    width:80%;
+}
+.proImage{
+    width:80%;
+    padding-left: 20px;
 }

@@ -1,5 +1,7 @@
 import React from 'react'
 import '../../App.css'
+
+
 const Navbar = () => {
   return (
     <div className='navSection'>
@@ -11,10 +13,10 @@ const Navbar = () => {
       </div>
       <div className='user'>
         <div className='user-detail'>
-          signIn/signUp
+          SignIn/SignUp
         </div>
         <div className='cart'>
-          cart
+          Cart
         </div>
       </div>
     </div>
